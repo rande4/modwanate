@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+Office:ital,wght@1,700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ .parent_index{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(16,73px);
+    background-size:contain ;
+    background-repeat: no-repeat;  
+    background-attachment:scroll;  
+    background-color: #a16a6a;
+    background-position: center;
+    height: 1150px;
+}
+
+.header{
+    grid-column: 1/-1;
+    background-color:  rgb(122, 195, 163);
+   
+}
+.header {
+    background-color: rgb(122, 195, 163);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px;
+    border-radius: 0px 0px 12.5px 12.5px;
+
+    }
+    .foter_end{
+        grid-row: 13/17;
+        grid-column: 1/-1;
+        background-color: rgb(122, 195, 163);
+        z-index: 999;
+        border-radius:12.5px 12.5px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,75px)
+    }
+    .adf-container1 {
+        width: 320px;
+        height: 50px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* نص داخل مكان الإعلان */
+    .adf-text1 {
+        font-size: 14px;
+        color: #333;
+        text-transform: uppercase;
+    }
+    .adf-container2 {
+          grid-column: 4/4;
+        width: 320px;
+        height: 50px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    /* نص داخل مكان الإعلان */
+    .adf-text2 {
+        font-size: 14px;
+        color: #333;
+        text-transform: uppercase;
+    }
+    .foter_content{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+     font-style:bold;
+    color: rgb(91, 49, 31);
+    }
+    .logo_foter{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+        transition: 8s ease-in-out;
+        animation-name: logo; 
+        color: black;
+        }
+.logo{
+ text-decoration: none;
+text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1.8em;
+            transition: 8s ease-in-out;
+            animation-name: logo; 
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            }
+@keyframes logo {
+ 0% {color: yellow;
+ color: whitesmoke;
+ }
+ 50% {
+ color:black;}
+ 100%{color: yellow;
+ color:whitesmoke;
+ }           
+}
+.content{
+    grid-row:2/13  ;
+    grid-column:1/-1 ;
+
+}
+.rfttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
