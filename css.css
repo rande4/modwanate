@@ -17,7 +17,51 @@
     background-position: center;
     height: 1150px;
 }
+.nav_left{
+    grid-row: 2/13;
+    background-color: #333;
+}
 
+/*لترتيب الاكواد راح اكتب هنا خصاىص قاىمه اليسار*/
+.ad-container1 {
+    width: 300px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+}
+.ad-text1 {
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.ad-container2 {
+    width: 300px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+}
+.ad-text2 {
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.ad-container3 {
+    width: 300px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+}
+.ad-text3 {
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
 .header{
     grid-column: 1/-1;
     background-color:  rgb(122, 195, 163);
